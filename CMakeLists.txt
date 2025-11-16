@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(TaskA2
         MergeInsert.cpp
-        MergeInsertAnalysis.cpp
+        main.cpp
         ArrayGenerator.cpp
         SortTester.cpp
         Merge.cpp

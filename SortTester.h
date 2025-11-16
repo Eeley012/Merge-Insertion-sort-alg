@@ -5,10 +5,10 @@
 class SortTester {
  private:
   ArrayGenerator arrayGenerator = ArrayGenerator();
-  int logging{};
 
  public:
   static void clearScreen();
+  int logging{};
   std::map<size_t, long long> StandartMergeTheRandomData();
   std::map<size_t, long long> StandartMergeTheReversedData();
   std::map<size_t, long long> StandartMergeTheAlmostSortedData();

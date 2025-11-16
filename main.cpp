@@ -37,6 +37,7 @@ int main() {
   SaveToCSV("mergeinsert_almost_sorted.csv", InsertMergeAlmostSortedData);
 
   // порог Insertion
+  sortTester.logging = 0;
   std::vector<std::tuple<int, size_t, long long>> thresholdRandomData = sortTester.ThresholdInsertMergeTheRandomData();
   std::vector<std::tuple<int, size_t, long long>> thresholdReversedData =
       sortTester.ThresholdInsertMergeTheReversedData();
